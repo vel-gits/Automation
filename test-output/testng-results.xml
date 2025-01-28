@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-29T20:38:23 GST" name="Selenium Grid Suite" finished-at="2024-09-29T20:38:32 GST" duration-ms="9391">
+    <groups>
+    </groups>
+    <test started-at="2024-09-29T20:38:23 GST" name="ChromeTest" finished-at="2024-09-29T20:38:32 GST" duration-ms="9391">
+      <class name="dockerTest.SeleniumGridTestNG">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dockerTest.SeleniumGridTestNG@71d44a3]" started-at="2024-09-29T20:38:23 GST" name="setup" finished-at="2024-09-29T20:38:29 GST" duration-ms="5589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testOnChrome()[pri:0, instance:dockerTest.SeleniumGridTestNG@71d44a3]" started-at="2024-09-29T20:38:29 GST" name="testOnChrome" finished-at="2024-09-29T20:38:30 GST" duration-ms="1453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOnChrome -->
+        <test-method signature="testOnFirefox()[pri:0, instance:dockerTest.SeleniumGridTestNG@71d44a3]" started-at="2024-09-29T20:38:30 GST" name="testOnFirefox" finished-at="2024-09-29T20:38:31 GST" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOnFirefox -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dockerTest.SeleniumGridTestNG@71d44a3]" started-at="2024-09-29T20:38:31 GST" name="teardown" finished-at="2024-09-29T20:38:32 GST" duration-ms="1108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- dockerTest.SeleniumGridTestNG -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Selenium Grid Suite -->
+</testng-results>
