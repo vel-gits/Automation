@@ -1,11 +1,6 @@
-Feature: Login Functionality
+Feature: OrangeHRM Login Functionality
 
-  Scenario: Successful login with valid credentials
-    Given I am on the login page
-    When I enter valid credentials "user1" and "password1"
-    Then I should see the dashboard
-
-  Scenario: Unsuccessful login with invalid credentials
-    Given I am on the login page
-    When I enter invalid credentials "wrongUser" and "wrongPass"
-    Then I should see an error message
+  Scenario: Valid Login
+    Given the user is on the login page
+    When the user enters valid credentials "Admin" and "admin123"
+    Then the user should see the dashboard

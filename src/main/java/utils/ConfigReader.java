@@ -1,4 +1,4 @@
-package com.example.Utliz;
+package utils;
 
 public class ConfigReader {
 

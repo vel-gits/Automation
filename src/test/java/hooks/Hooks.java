@@ -1,5 +1,11 @@
 package hooks;
 
-public class Hooks {
+import io.cucumber.java.After;
+import utils.DriverFactory;
 
+public class Hooks {
+    @After
+    public void tearDown() {
+        DriverFactory.quitDriver();
+    }
 }
